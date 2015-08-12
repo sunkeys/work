@@ -4,7 +4,7 @@
       update:function(id,status){
           $.ajax(
               {
-                  type: "GET",
+                  type: "POSTT",
                   url: '/shop/cash/update-status',
                   data: {'id':id,'status':status},
                   asynic: false,
@@ -28,5 +28,5 @@
               }
           );
       }
-    };
+    };//aaa :a
 </script>
